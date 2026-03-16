@@ -38,7 +38,7 @@ const NavBar = () => {
     after:absolute
     after:left-0
     after:-bottom-1
-    after:h-[2px]
+    after:h-0.5
     after:w-0
     after:bg-blue-400
     after:shadow-[0_0_8px_rgba(59,130,246,0.8)]

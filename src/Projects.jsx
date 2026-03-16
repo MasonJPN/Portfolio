@@ -24,7 +24,7 @@ export default function Projects(){
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
                 
                 {/* PROJECT CARD 1 */}
-                <div className="bg-slate-900/50 backdrop-blur border border-blue-400 rounded-lg p-6 shadow-[0_6px_20px_-4px_rgba(59,130,246,0.4)] flex flex-col">
+                <div className=" project-card bg-slate-900/50 backdrop-blur border border-blue-400 rounded-lg p-6 shadow-[0_6px_20px_-4px_rgba(59,130,246,0.4)] flex flex-col">
                     <img 
                         src={TCGVaultSS}
                         alt="Project 1 screenshot" 
@@ -44,7 +44,7 @@ export default function Projects(){
                 </div>
 
                 {/* PROJECT CARD 2 */}
-                <div className="bg-slate-900/50 backdrop-blur border border-blue-400 rounded-lg p-6 shadow-[0_6px_20px_-4px_rgba(59,130,246,0.4)] flex flex-col">
+                <div className= " project-card2 bg-slate-900/50 backdrop-blur border border-blue-400 rounded-lg p-6 shadow-[0_6px_20px_-4px_rgba(59,130,246,0.4)] flex flex-col">
                     <img 
                          src={FilmDex}
                         alt="Project 2 screenshot" 
@@ -64,7 +64,7 @@ export default function Projects(){
                 </div>
 
                 
-                <div className="bg-slate-900/50 backdrop-blur border border-blue-400 rounded-lg p-6 shadow-[0_6px_20px_-4px_rgba(59,130,246,0.4)] flex flex-col">
+                <div className=" project-card bg-slate-900/50 backdrop-blur border border-blue-400 rounded-lg p-6 shadow-[0_6px_20px_-4px_rgba(59,130,246,0.4)] flex flex-col">
                     <img 
                         
                         alt="Project 3 screenshot" 

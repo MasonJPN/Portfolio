@@ -14,12 +14,12 @@ const Hero = () => {
     <section className="relative mt-50 px-6 md:ml-25 md:mt-65 flex flex-col md:flex-row items-center justify-between gap-10 mb-80">
 
       <div className="max-w-4xl">
-        <h1 className="text-white flex align-center justify-center md:flex-none text-2xl md:text-4xl font-semibold">
+        <h1 className="text-white flex justify-center items-center md:flex-none text-2xl md:text-4xl font-semibold">
           Hi there! I'm Mason 👋
         </h1>
 
-        <span className="block justify-center mt-6 text-gray-300 text-base md:text-2xl leading-relaxed md:pr-20">
-          I'm a Frontend Developer based in Tokyo 🗼 specializing in React and modern UI,
+        <span className="block  mt-6 text-gray-300 text-base md:text-2xl leading-relaxed md:pr-20">
+          I'm a Frontend Developer based in Tokyo 🗼. I specialize in React and modern UI,
           focused on delivering intuitive, scalable web experiences for global products.
         </span>
 
@@ -33,16 +33,7 @@ const Hero = () => {
           </button>
         </div>
 
-        <div className="flex items-center justify-center  object-cover overflow-hidden">
-          <img 
-            src={Github}
-            className="w-20 h-20  bg-white rounded-2xl "/>
-          <img 
-            src={linkedin}
-            className="w-20 h-20  bg-white rounded-2xl"
-          
-          />
-        </div>
+        
 
 
 
@@ -55,7 +46,7 @@ const Hero = () => {
         <img
           src={GS}
           alt="Mason portrait"
-          className="w-100 mt-10 md:mr-20 md:h-74 md:w-120 object-cover rounded-2xl shadow-lg border border-gray-300 shadow-blue-400"
+          className=" puff w-100 mt-10 md:mr-20 md:h-74 md:w-120 object-cover rounded-2xl shadow-lg border border-gray-300 shadow-blue-400"
         />
       </div>
 

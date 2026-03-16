@@ -7,3 +7,43 @@
 body{
   background-color: #050815;
 }
+
+
+.project-card {
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  transform-style: preserve-3d;
+  transform: perspective(800px) rotateY(0deg);
+}
+
+.project-card:hover {
+  transform: perspective(800px) rotateY(6deg) rotateX(2deg) scale(1.02);
+  box-shadow: 8px 12px 30px -4px rgba(59, 130, 246, 0.5);
+}
+
+.project-card2 {
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  transform-style: preserve-3d;
+  transform: perspective(800px) rotateY(0deg);
+}
+
+.project-card2:hover {
+  transform: perspective(800px) rotateY(-6deg) rotateX(2deg) scale(1.02);
+  box-shadow: 8px 12px 30px -4px rgba(59, 130, 246, 0.5);
+}
+
+
+
+/* 
+This is for the Main Picture of me
+*/
+
+.puff{
+  transition: 0.5s ease
+}
+
+.puff:hover{
+  transform: scale(1.05);
+}
+
+
+
