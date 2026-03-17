@@ -45,5 +45,16 @@ This is for the Main Picture of me
   transform: scale(1.05);
 }
 
+/* 
+Experience and Education Cards animation
+*/
 
+.experience-trans{
+  transition: transform 0.8s ease, box-shadow 0.3s ease;
+  
+}
 
+.experience-trans:hover{
+  transform: scale(1.05);
+  box-shadow: 0 20px 40px -8px rgba(59, 130, 246, 0.4);
+}

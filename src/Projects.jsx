@@ -7,7 +7,7 @@ import FilmDex from "./assets/FilmDex.png"
 
 export default function Projects(){
     return (
-        <section className="px-10 py-32 bg-background text-white">
+        <section id="projects" className="px-10 py-32 bg-background text-white">
             
             {/* Section Header */}
             <div className="flex flex-col items-center text-center mb-16">
@@ -33,7 +33,7 @@ export default function Projects(){
                     <h3 className="text-2xl font-semibold mb-3">TCG Vault</h3>
                     <p className="text-blue-400 text-sm mb-4">React.js, CSS</p>
                     <p className="text-gray-300 mb-6 grow">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis temporibus quis placeat dolorum vitae delectus, eveniet nobis nulla necessitatibus eum, quia rem quasi quae autem, laudantium ipsa minima. Amet, accusamus.
+                        A web app that allows users to search Pokémon TCG cards using an API, view detailed card information, and build a personalized collection with persistent storage and interactive features.
                     </p>
                     <a 
                         href="https://tcg-vault.netlify.app/" 

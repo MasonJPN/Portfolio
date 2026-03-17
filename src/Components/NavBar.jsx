@@ -5,9 +5,7 @@ const navLinks= [
      { href: "#projects", label:"Projects"},
     { href: "#resume", label:"Resume"},
     { href: "#skills", label:"Skills"},
-    
-    
-    
+    { href: "#contact", label:"Contact"},
 ]
 
 
@@ -22,7 +20,8 @@ const NavBar = () => {
 "
 >
   <nav className="container mx-auto flex items-center justify-between">
-    <img className="h-15" src={Logo}></img>
+    <img className="h-13 ml-2 md:h-15" src={Logo} alt="Logo" />
+
     
 
 {/* Desktop Nav */}

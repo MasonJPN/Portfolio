@@ -1,57 +1,46 @@
 import React from 'react'
-import Mason from "../assets/Mason.png"
 import GS from "../assets/GS.png"
 import Tokyo from "../assets/photo.png"
-import Github from "../assets/Github.png"
-import linkedin from "../assets/linkedin.png"
-
-
+import MasonActing1 from "../assets/MasonActing1.png"
+import MasonActing2 from "../assets/MasonActing2.png"
+import MasonTokyo from "../assets/MasonTokyo.png"
 const Hero = () => {
   return (
-    <>
-    <img src={Tokyo} alt="Background-Hero" className="absolute inset-0 w-full h-250 md:h-250 object-cover rounded-xl brightness-30" />
-    
-    <section className="relative mt-50 px-6 md:ml-25 md:mt-65 flex flex-col md:flex-row items-center justify-between gap-10 mb-80">
+    <div className="relative">
+      <img src={Tokyo} alt="Background-Hero" className="absolute inset-0 w-full h-full object-cover rounded-xl brightness-30" />
+      
+      <section className="relative pt-40 md:pt-52 px-10 md:px-20 flex flex-col md:flex-row items-center justify-center gap-16 pb-32">
 
-      <div className="max-w-4xl">
-        <h1 className="text-white flex justify-center items-center md:flex-none text-2xl md:text-4xl font-semibold">
-          Hi there! I'm Mason 👋
-        </h1>
+        <div className="max-w-xl flex flex-col gap-6">
+          <h1 className="text-white text-3xl md:text-5xl font-semibold">
+            Hi there! I'm Mason 👋
+          </h1>
 
-        <span className="block  mt-6 text-gray-300 text-base md:text-2xl leading-relaxed md:pr-20">
-          I'm a Frontend Developer based in Tokyo 🗼. I specialize in React and modern UI,
-          focused on delivering intuitive, scalable web experiences for global products.
-        </span>
+          <p className="text-gray-300 text-base md:text-xl leading-relaxed">
+            I'm a Frontend Developer based in Tokyo 🗼. I specialize in React and modern UI,
+            focused on delivering intuitive, scalable web experiences for global products.
+          </p>
 
-        <div className="flex flex-col md:flex-row items-center gap-6 md:gap-20 mt-10">
-          <button className="w-90 md:w-60 text-white text-base md:text-2xl border border-blue-500 bg-blue-500 hover:bg-blue-800 transition-colors py-3 md:py-4 rounded-lg">
-            Resume
-          </button>
-
-          <button className="w-90 md:w-60 text-white text-base md:text-2xl border border-blue-500 bg-blue-500 hover:bg-blue-800 transition-colors py-3 md:py-4 rounded-lg">
-            Contact Me
-          </button>
+          <div className="flex flex-row gap-4 mt-2">
+            <button className="text-white text-base md:text-lg border border-blue-500 bg-blue-500 hover:bg-blue-800 transition-colors px-8 py-3 rounded-lg">
+              Resume
+            </button>
+            <button className="text-white text-base md:text-lg border border-blue-500 bg-blue-500 hover:bg-blue-800 transition-colors px-8 py-3 rounded-lg">
+              Contact Me
+            </button>
+          </div>
         </div>
 
-        
+        <div className="shrink-0">
+          <img
+            src={GS}
+            alt="Mason portrait"
+            className="puff h-72 md:h-96 w-auto object-cover rounded-2xl shadow-lg border border-blue-400 shadow-blue-400"
+          />
+        </div>
 
-
-
-
-
-
-      </div>
-
-      <div className="shrink-0 md:ml-20">
-        <img
-          src={GS}
-          alt="Mason portrait"
-          className=" puff w-100 mt-10 md:mr-20 md:h-74 md:w-120 object-cover rounded-2xl shadow-lg border border-gray-300 shadow-blue-400"
-        />
-      </div>
-
-    </section>
-    </>
+      </section>
+    </div>
   )
 }
 
