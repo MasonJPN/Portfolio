@@ -82,8 +82,9 @@ const Experience = () => {
               </div>
             </div>
             <ul className="space-y-3 text-gray-300">
-              <li className="flex gap-3"><span className="text-blue-400">•</span><span>Studied Japanese language and culture</span></li>
-              <li className="flex gap-3"><span className="text-blue-400">•</span><span>Received the award for </span></li>
+              <li className="flex gap-3"><span className="text-blue-400">•</span><span>Studied Japanese Language & Culture</span></li>
+              <li className="flex gap-3"><span className="text-blue-400">•</span><span>Received the Most Outstanding Japanese Language Student award — 2024/2025 </span></li>
+              
             </ul>
           </div>
             </div>
@@ -101,7 +102,7 @@ const Experience = () => {
             </div>
             <ul className="space-y-3 text-gray-300">
               <li className="flex gap-3"><span className="text-blue-400">•</span><span>FreeCodeCamp Responsive Web Design Certification.</span></li>
-              <li className="flex gap-3"><span className="text-blue-400">•</span><span>Udemy React Complete Course Certification.</span></li>
+              <li className="flex gap-3"><span className="text-blue-400">•</span><span>Udemy Complete React Developer CourseJ</span></li>
             </ul>
           </div>
           </div>
