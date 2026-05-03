@@ -17,15 +17,15 @@ const Hero = () => {
           </h1>
 
           <p className="text-gray-300 text-base md:text-xl leading-relaxed">
-            I'm a Frontend Developer based in Tokyo 🗼  I specialize in React and modern UI,
+            I'm a Frontend Developer based in Tokyo. I specialize in React and modern UI,
             focused on delivering intuitive, scalable web experiences for global products.
           </p>
 
           <div className="flex flex-row gap-4 mt-2">
-            <button className="text-white text-base md:text-lg border border-blue-500 bg-blue-500 hover:bg-blue-800 transition-colors px-8 py-3 rounded-lg">
+            <button className="text-white text-base md:text-lg border border-blue-500 bg-blue-500 hover:bg-blue-800 hover:border-blue-800 transition-colors px-8 py-3 rounded-lg">
               Resume
             </button>
-            <button className="text-white text-base md:text-lg border border-blue-500 bg-blue-500 hover:bg-blue-800 transition-colors px-8 py-3 rounded-lg">
+            <button className="text-white text-base md:text-lg border border-blue-500 bg-blue-500 hover:bg-blue-800 hover:border-blue-800 transition-colors px-8 py-3 rounded-lg">
               <a href="https://www.linkedin.com/in/mason-fancher-859156351" target="_blank">
               Contact Me
               </a>

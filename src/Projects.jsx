@@ -1,6 +1,6 @@
 import TCGVaultSS from "./assets/tcgVaultSS.png"
 import FilmDex from "./assets/FilmDex.png"
-
+import TokyoEatsSS from "./assets/TokyoEatsSS.png"
 
 
 
@@ -66,17 +66,17 @@ export default function Projects(){
                 
                 <div className=" project-card bg-slate-900/50 backdrop-blur border border-blue-400 rounded-lg p-6 shadow-[0_6px_20px_-4px_rgba(59,130,246,0.4)] flex flex-col">
                     <img 
-                        
+                        src={TokyoEatsSS}
                         alt="Project 3 screenshot" 
                         className="w-full h-48 object-cover rounded-lg mb-4 border border-blue-400/30"
                     />
-                    <h3 className="text-2xl font-semibold mb-3">Project 3 Name</h3>
-                    <p className="text-blue-400 text-sm mb-4">React.js, Tailwind, Next.js</p>
+                    <h3 className="text-2xl font-semibold mb-3">Tokyo Eats</h3>
+                    <p className="text-blue-400 text-sm mb-4">TypeScript, Tailwind, Next.js</p>
                     <p className="text-gray-300 mb-6 grow">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis temporibus quis placeat dolorum vitae delectus, eveniet nobis nulla necessitatibus eum, quia rem quasi quae autem, laudantium ipsa minima. Amet, accusamus.
+                        A personal restaurant tracker built for me and my friends to log every place we've eaten across Tokyo. Drop a pin, leave a review, track your favourites — all on a live interactive map.
                     </p>
                     <a 
-                        href="" 
+                        href="https://tokyoeatss.netlify.app/" 
                         className="text-blue-400 hover:text-blue-300 underline underline-offset-4 transition-colors"
                     >
                         Link to Project →
