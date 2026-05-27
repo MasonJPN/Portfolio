@@ -18,7 +18,7 @@ const Experience = () => {
 
         {/* EXPERIENCE CARD 1 */}
         <div data-aos="fade-up" data-aos-delay="100">
-          <div className="experience-trans min-h-[400px] w-[80vw] max-w-5xl bg-slate-900/50 backdrop-blur border border-blue-400 rounded-lg p-8 shadow-[0_6px_20px_-4px_rgba(59,130,246,0.4)]">
+          <div className="experience-trans min-h-100 w-[80vw] max-w-5xl bg-slate-900/50 backdrop-blur border border-blue-400 rounded-lg p-8 shadow-[0_6px_20px_-4px_rgba(59,130,246,0.4)]">
             <div className="flex items-start gap-6 mb-6">
               <img src={briefcase} className="w-16 h-16 object-contain" alt="briefcase" />
               <div>
@@ -66,11 +66,11 @@ const Experience = () => {
           </h2>
         </div>
 
-        <div className="flex gap-8 justify-center">
+        <div className="flex gap-8 items-stretch justify-center">
 
           {/* EDUCATION CARD 1 */}
           <div data-aos="fade-right" data-aos-delay="100">
-            <div className="experience-trans flex flex-col w-[35vw] max-w-md min-h-100 bg-slate-900/50 backdrop-blur border border-blue-400 rounded-lg p-8 shadow-[0_6px_20px_-4px_rgba(59,130,246,0.4)]">
+            <div className="experience-trans flex flex-col w-[35vw] max-w-md h-full bg-slate-900/50 backdrop-blur border border-blue-400 rounded-lg p-8 shadow-[0_6px_20px_-4px_rgba(59,130,246,0.4)]">
               <div className="flex flex-col items-center mb-6">
                 <img src={hat} className="w-16 h-16 object-contain" alt="graduation hat" />
                 <div className="text-center">
@@ -80,8 +80,8 @@ const Experience = () => {
                 </div>
               </div>
               <ul className="space-y-3 text-gray-300 flex-1">
-                <li className="flex gap-3"><span className="text-blue-400">•</span><span>Pursued Japanese Language & Culture coursework, reaching conversational proficiency</span></li>
-                <li className="flex gap-3"><span className="text-blue-400">•</span><span>Received the Most Outstanding Japanese Language Student award — 2024/2025</span></li>
+                <li className="flex gap-3"><span className="text-blue-400">•</span><span>Pursued Japanese Language & Culture coursework, reaching conversational proficiency.</span></li>
+                <li className="flex gap-3"><span className="text-blue-400">•</span><span>Received the Most Outstanding Japanese Language Student award — 2024/2025.</span></li>
                 <li className="flex gap-3"><span className="text-blue-400">•</span><span>Received TESOL certification, demonstrating commitment.</span></li>
               </ul>
             </div>
@@ -89,7 +89,7 @@ const Experience = () => {
 
           {/* EDUCATION CARD 2 */}
           <div data-aos="fade-left" data-aos-delay="100">
-            <div className="experience-trans flex flex-col w-[35vw] max-w-md min-h-[420px] bg-slate-900/50 backdrop-blur border border-blue-400 rounded-lg p-8 shadow-[0_6px_20px_-4px_rgba(59,130,246,0.4)]">
+            <div className="experience-trans flex flex-col w-[35vw] max-w-md h-full bg-slate-900/50 backdrop-blur border border-blue-400 rounded-lg p-8 shadow-[0_6px_20px_-4px_rgba(59,130,246,0.4)]">
               <div className="flex flex-col items-center mb-6">
                 <img src={hat} className="w-16 h-16 object-contain mb-4" alt="graduation hat" />
                 <div className="text-center">
@@ -101,7 +101,7 @@ const Experience = () => {
               <ul className="space-y-3 text-gray-300 flex-1">
                 <li className="flex gap-3"><span className="text-blue-400">•</span><span>Studied web design fundamentals, building a foundation in HTML & CSS.</span></li>
                 <li className="flex gap-3"><span className="text-blue-400">•</span><span>Immersed in Japanese language and culture, accelerating path to conversational proficiency.</span></li>
-                <li className="flex gap-3"><span className="text-blue-400">•</span><span>First exposure to frontend development, sparking transition into self-taught software engineering</span></li>
+                <li className="flex gap-3"><span className="text-blue-400">•</span><span>First exposure to frontend development, sparking transition into software engineering.</span></li>
               </ul>
             </div>
           </div>

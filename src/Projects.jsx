@@ -1,5 +1,5 @@
 import TCGVaultSS from "./assets/tcgVaultSS.png"
-import FilmDex from "./assets/FilmDex.png"
+import BeauBlendz from "./assets/BeauBlendz.png"
 import TokyoEatsSS from "./assets/TokyoEatsSS.png"
 
 
@@ -46,17 +46,17 @@ export default function Projects(){
                 {/* PROJECT CARD 2 */}
                 <div className= " project-card2 bg-slate-900/50 backdrop-blur border border-blue-400 rounded-lg p-6 shadow-[0_6px_20px_-4px_rgba(59,130,246,0.4)] flex flex-col">
                     <img 
-                         src={FilmDex}
+                         src={BeauBlendz}
                         alt="Project 2 screenshot" 
                         className="w-full h-48 object-cover rounded-lg mb-4 border border-blue-400/30"
                     />
-                    <h3 className="text-2xl font-semibold mb-3">Project 2 Name</h3>
-                    <p className="text-blue-400 text-sm mb-4">React.js, Tailwind, Next.js</p>
+                    <h3 className="text-2xl font-semibold mb-3">BeauBlendz</h3>
+                    <p className="text-blue-400 text-sm mb-4">Typescript, Tailwind, Next.js</p>
                     <p className="text-gray-300 mb-6 grow">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis temporibus quis placeat dolorum vitae delectus, eveniet nobis nulla necessitatibus eum, quia rem quasi quae autem, laudantium ipsa minima. Amet, accusamus.
+                        A freelance barbershop website built for a client in Indianapolis. Features a service menu, an integrated booking system, and a working contact form via EmailJS — fully responsive across all devices.
                     </p>
                     <a 
-                        href="" 
+                        href="https://beaublendzbarber.netlify.app/" 
                         className="text-blue-400 hover:text-blue-300 underline underline-offset-4 transition-colors"
                     >
                         Link to Project →
