@@ -8,7 +8,7 @@ const Experience = () => {
 
       {/* Section Header */}
       <div data-aos="fade-up" className="flex flex-col items-center text-center mb-16">
-        <img src={briefcase} alt="Briefcase icon" className="h-20 mb-4" />
+        <img src={briefcase} alt="Briefcase icon" className="h-20 mb-4 mt-20" />
         <h2 className="text-4xl font-semibold underline decoration-blue-400 underline-offset-6">
           Professional Experience
         </h2>

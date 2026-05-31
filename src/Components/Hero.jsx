@@ -7,7 +7,7 @@ import MasonTokyo from "../assets/MasonTokyo.png"
 const Hero = () => {
   return (
     <div className="relative">
-      <img src={Tokyo} alt="Background-Hero" className="absolute inset-0 w-full h-full object-cover rounded-xl brightness-40" />
+      <img src={Tokyo} alt="Background-Hero" className="absolute inset-0 w-full h-200 object-cover rounded-xl brightness-40" />
       
       <section className="relative pt-40 md:pt-52 px-10 md:px-20 flex flex-col md:flex-row items-center justify-center gap-16 pb-32">
 
