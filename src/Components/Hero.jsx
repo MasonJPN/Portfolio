@@ -13,7 +13,7 @@ const Hero = () => {
 
         <div className="max-w-xl flex flex-col gap-6">
           <h1 className="text-white text-3xl md:text-5xl font-semibold">
-            Hi there! I'm Mason 
+            Hi, I'm Mason.
           </h1>
 
           <p className="text-gray-300 text-base md:text-xl leading-relaxed">

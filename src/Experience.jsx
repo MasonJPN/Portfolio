@@ -66,11 +66,11 @@ const Experience = () => {
           </h2>
         </div>
 
-        <div className="flex gap-8 items-stretch justify-center">
+        <div className=" flex flex-col md:flex md:flex-row gap-8 items-stretch justify-center">
 
           {/* EDUCATION CARD 1 */}
           <div data-aos="fade-right" data-aos-delay="100">
-            <div className="experience-trans flex flex-col w-[35vw] max-w-md h-full bg-slate-900/50 backdrop-blur border border-blue-400 rounded-lg p-8 shadow-[0_6px_20px_-4px_rgba(59,130,246,0.4)]">
+            <div className="experience-trans flex flex-col w-50vw md:w-[35vw] max-w-md h-full bg-slate-900/50 backdrop-blur border border-blue-400 rounded-lg p-8 shadow-[0_6px_20px_-4px_rgba(59,130,246,0.4)]">
               <div className="flex flex-col items-center mb-6">
                 <img src={hat} className="w-16 h-16 object-contain" alt="graduation hat" />
                 <div className="text-center">
@@ -89,7 +89,7 @@ const Experience = () => {
 
           {/* EDUCATION CARD 2 */}
           <div data-aos="fade-left" data-aos-delay="100">
-            <div className="experience-trans flex flex-col w-[35vw] max-w-md h-full bg-slate-900/50 backdrop-blur border border-blue-400 rounded-lg p-8 shadow-[0_6px_20px_-4px_rgba(59,130,246,0.4)]">
+            <div className="experience-trans flex flex-col md:w-[35vw] max-w-md h-full bg-slate-900/50 backdrop-blur border border-blue-400 rounded-lg p-8 shadow-[0_6px_20px_-4px_rgba(59,130,246,0.4)]">
               <div className="flex flex-col items-center mb-6">
                 <img src={hat} className="w-16 h-16 object-contain mb-4" alt="graduation hat" />
                 <div className="text-center">
