@@ -30,7 +30,7 @@ const About = () => {
       </h2>
 
       <div className="flex flex-col items-center mt-16">
-        <div className="grid grid-cols-5 gap-16">
+        <div className=" grid grid-cols-3 md:grid md:grid-cols-5 gap-16">
           {skills.map((skill) => (
             <div key={skill.name} className="group flex flex-col items-center gap-3 cursor-default">
               <img

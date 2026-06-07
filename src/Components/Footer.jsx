@@ -18,7 +18,7 @@ const Footer = () => {
 
         <p className="text-sm text-gray-500">© 2026 Mason Fancher. All rights reserved.</p>
 
-        <p className="text-xs text-gray-600">Built with React & Tailwind</p>
+        
 
       </div>
     </footer>

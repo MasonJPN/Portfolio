@@ -1,8 +1,6 @@
 import TCGVaultSS from "./assets/tcgVaultSS.png"
 import BeauBlendz from "./assets/BeauBlendz.png"
-import TokyoEatsSS from "./assets/TokyoEatsSS.png"
-
-
+import GlobalRiseProject from "./assets/GlobalRiseProject.png"
 
 
 export default function Projects(){
@@ -66,17 +64,17 @@ export default function Projects(){
                 
                 <div className=" project-card bg-slate-900/50 backdrop-blur border border-blue-400 rounded-lg p-6 shadow-[0_6px_20px_-4px_rgba(59,130,246,0.4)] flex flex-col">
                     <img 
-                        src={TokyoEatsSS}
+                        src={GlobalRiseProject}
                         alt="Project 3 screenshot" 
                         className="w-full h-48 object-cover rounded-lg mb-4 border border-blue-400/30"
                     />
-                    <h3 className="text-2xl font-semibold mb-3">Tokyo Eats</h3>
+                    <h3 className="text-2xl font-semibold mb-3">Global Rise</h3>
                     <p className="text-blue-400 text-sm mb-4">TypeScript, Tailwind, Next.js</p>
                     <p className="text-gray-300 mb-6 grow">
-                        A personal restaurant tracker built for me and my friends to log every place we've eaten across Tokyo. Drop a pin, leave a review, track your favourites — all on a live interactive map.
+                        An internal school management app handling real-time student sign-in, teacher clock-in/out, and automated parent email notifications — deployed and used daily by staff and students.
                     </p>
                     <a 
-                        href="https://tokyoeatss.netlify.app/" 
+                        href="https://globalrisegakudo.org/" 
                         className="text-blue-400 hover:text-blue-300 underline underline-offset-4 transition-colors"
                     >
                         Link to Project →
