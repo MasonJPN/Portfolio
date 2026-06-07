@@ -23,7 +23,7 @@ const Hero = () => {
 
           <div className="flex flex-row gap-4 mt-2">
             <button className="text-white text-base md:text-lg border border-blue-500 bg-blue-500 hover:bg-blue-800 hover:border-blue-800 transition-colors px-8 py-3 rounded-lg">
-              Resume
+              <a href="/MasonFancherCV.docx" download="/MasonFancherCV.docx" >Resume</a>
             </button>
             <button className="text-white text-base md:text-lg border border-blue-500 bg-blue-500 hover:bg-blue-800 hover:border-blue-800 transition-colors px-8 py-3 rounded-lg">
               <a href="https://www.linkedin.com/in/mason-fancher-859156351" target="_blank">
